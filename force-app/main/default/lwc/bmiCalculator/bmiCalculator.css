@@ -54,3 +54,14 @@ input{
     padding: var(--size-8);
     font-size: var(--size-16);
 }
+.custom-button{
+    font-size: var(--size-16);
+    padding: var(--size-12);
+    background: #e91e63;
+    color: white;
+    border-color: #e91e63;
+}
+.result-value{
+    color: var(--light-blue);
+    font-size: 30px;
+}
