@@ -56,7 +56,7 @@ header{
     padding: 4px 16px;
   }
 
-  footer{
+  .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,5 +71,4 @@ header{
     font-size: 14px;
     font-style: italic;
   }
-
 
