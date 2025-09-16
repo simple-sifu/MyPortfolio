@@ -42,6 +42,6 @@ export default class NoteTakingApp extends LightningElement {
     }
 
     get isFormInvalid(){
-        return  !(this.noteRecord && this.noteRecord.Name !== "" && this.noteRecord.Note_Description__c === "");
+        return  !(this.noteRecord && this.noteRecord.Name && this.noteRecord.Note_Description__c === "");
     }
 }
